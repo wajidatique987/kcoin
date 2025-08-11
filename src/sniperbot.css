@@ -1,0 +1,184 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container */
+.container {
+  max-width: 500px;
+  padding: 20px;
+}
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+}
+/* Banner */
+.banner-content {
+  background-image: linear-gradient(90deg, #43b2e6 100%, #256380 100%);
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.banner-image img {
+  width: 97px;
+}
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+.banner h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  width: 230px;
+}
+.banner p {
+  width: 172px;
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+/* Actions */
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  justify-content: space-between;
+}
+
+.primary-btn {
+  background: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 105px;
+  font-size: 14px;
+}
+.p-btn {
+  border-right: 1px solid gray;
+  padding-right: 50px;
+}
+.o-btn {
+  border-right: 1px solid gray;
+  padding-right: 50px;
+}
+.outline-btn {
+  all: unset;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  color: #000000;
+}
+
+.refresh-icon {
+  font-size: 18px;
+  color: #2196f3;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10px 0; */
+  background-color: #f1f1f1;
+}
+
+.tabs button {
+  padding: 8px 12px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  font-size: 14px;
+  color: #141414;
+}
+
+.tabs .active {
+  border-bottom: 2px solid #2196f3;
+  font-weight: bold;
+  background: #2196f3;
+  border-radius: 10px;
+  margin: 4px 4px;
+  color: #ffffff;
+  width: 100px;
+}
+
+/* Instruction Card */
+.instruction-card {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(#43b2e6 0%, #ffffff 100%);
+}
+
+.instruction-card h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.instruction-card ol {
+  padding-left: 20px;
+  font-size: 14px;
+  color: #43b2e6;
+}
+.instruction-card ol li {
+  margin-bottom: 10px;
+  color: gray;
+  opacity: 0.5;
+}
+/* Sniper Cards */
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.risk {
+  font-size: 16px;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+.low-risk {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(180, 178, 178);
+  padding: 0px 10px;
+  background: #f1f1f1;
+}
+.card {
+  background: #f1f1f1;
+}
+.card p {
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+/* Chat Icon
+.chat-float {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: #2196f3;
+  color: white;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+} */

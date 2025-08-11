@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  width: 500px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+h2 {
+  margin: 10px 0;
+}
+
+.signup-link,
+.forgot-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+form label {
+  display: flex;
+  gap: 10px;
+}
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.login-btn {
+  background-color: #48b4e7;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  /* width: 575px; */
+}
+.sign-btn {
+  background-color: #48b4e7;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.divider {
+  margin: 15px 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #fff;
+  width: 440px;
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.social-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.login-btn {
+  width: 100%;
+}
+
+/* =========== media Querry========== */
+
+@media (max-width: 575.98px) {
+  .login-box {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .social-btn {
+    width: 100%;
+  }
+
+  .login-btn {
+    width: 100%;
+  }
+
+  input[type="email"],
+  input[type="password"] {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .login-btn,
+  .social-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+  .sign-btn {
+    width: 100%;
+  }
+}
