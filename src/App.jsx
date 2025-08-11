@@ -9,6 +9,7 @@ import Profile from "./Profile";
 import Verified from "./Verified";
 import ActivateSniper from "./ActivateSniper";
 import Sniperbot from "./Sniperbot";
+import CreateNewSniper from "./CreateNewSniper";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/verified" element={<Verified />} />
         <Route path="/ActivateSniper" element={<ActivateSniper />} />
         <Route path="/bot" element={<Sniperbot />} />
+        <Route path="/createnewsniper" element={<CreateNewSniper />} />
       </Routes>
     </BrowserRouter>
   );

@@ -9,6 +9,7 @@ import { BsThreeDotsVertical } from "react-icons/bs";
 import dot from "./assets/images/green.png";
 import red from "./assets/images/red.png";
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 const Sniperbot = () => {
   return (
     <div className="container">
@@ -36,9 +37,11 @@ const Sniperbot = () => {
       <hr />
       {/* <!-- Actions --> */}
       <div className="action-btn">
-        <div className="p-btn">
-          <button className="primary-btn">Create Sniper</button>
-        </div>
+        <Link to="/createnewsniper">
+          <div className="p-btn">
+            <button className="primary-btn">Create Sniper</button>
+          </div>
+        </Link>
         <div className="o-btn">
           <button className="outline-btn">All Snipers</button>
         </div>
