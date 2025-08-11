@@ -1,0 +1,85 @@
+.modal {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  /* width: 320px; */
+  margin: 50px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  /* position: relative; */
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.modal-header p {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #aaa;
+}
+
+.modal-body label {
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+}
+
+.modal-body input,
+.modal-body select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.price-change {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.price-change span {
+  font-size: 14px;
+  padding: 0 5px;
+  color: #555;
+}
+
+.modal-footer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.save-btn {
+  background-color: #3bb3ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.save-btn:hover {
+  background-color: #299fe0;
+}
+.modal-header {
+  display: contents;
+}
+select {
+  margin-bottom: 0px;
+}

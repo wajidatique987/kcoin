@@ -1,6 +1,9 @@
 import React from "react";
 import "./CreateNewsniper.css";
 import photon from "./assets/images/photon.svg";
+import { CiCirclePlus } from "react-icons/ci";
+import { Link } from "react-router-dom";
+
 const CreateNewSniper = () => {
   return (
     <div>
@@ -66,9 +69,16 @@ const CreateNewSniper = () => {
               <input type="checkbox" /> Atleast 1 Social Link
             </label>
           </div>
-          <div className="pro-settings">
-            <h2>Pro Settings</h2>
-            <p>Enable advanced sniper configurations.</p>
+          <div className="pro-content">
+            <div className="pro-settings">
+              <h2>Pro Settings</h2>
+              <p>Enable advanced sniper configurations.</p>
+            </div>
+            <Link to="/prosetting">
+              <div className="pro-image">
+                <CiCirclePlus />
+              </div>
+            </Link>
           </div>
           <div className="buttons">
             <button type="reset" className="reset">
