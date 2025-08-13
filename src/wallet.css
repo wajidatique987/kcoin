@@ -13,41 +13,39 @@
   flex-direction: column;
   justify-content: center;
 }
-.tabs {
-  background-color: white;
-  border: none;
+.tab-id {
+  border: none !important;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff !important;
+  margin-top: 10px;
 }
-.tab:hover {
+.nav-tabs .nav-link {
+  border: none !important;
+  border-radius: 5px !important;
+  color: black !important;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
   background-color: #43b2e6;
-  color: #ffffff;
+  color: #ffffff !important;
+}
+.crypto-left {
+  display: flex;
+  gap: 5px;
+}
+.crypto-list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f7f9;
+  margin-bottom: 10px;
+  padding: 10px 9px;
   border-radius: 10px;
 }
-.crypto-item {
-  display: flex;
-  background: #f6f7f9;
-  padding: 10px 20px;
-  border-radius: 10px;
-  justify-content: space-between;
+.tab.active {
+  border: none !important;
 }
-
-/* .crypto-list .list-group-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.cryto-name {
+  color: #919191;
+  text-align: start;
 }
-.crypto-list img {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
-}
-.crypto-name {
-  display: flex;
-  align-items: center;
-}
-.tab-btn {
-  background: #e0f2ff;
-  border-radius: 8px;
-  padding: 5px 15px;
-  font-weight: bold;
-  color: #007bff;
-} */
