@@ -57,8 +57,8 @@ const Profile = () => {
         <div className="posts">
           <p>0 post</p>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };
