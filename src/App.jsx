@@ -11,6 +11,7 @@ import ActivateSniper from "./ActivateSniper";
 import Sniperbot from "./Sniperbot";
 import CreateNewSniper from "./CreateNewSniper";
 import Prosetting from "./Prosetting";
+import Wallet from "./Wallet";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/bot" element={<Sniperbot />} />
         <Route path="/createnewsniper" element={<CreateNewSniper />} />
         <Route path="/prosetting" element={<Prosetting />} />
+        <Route path="/wallet" element={<Wallet />} />
       </Routes>
     </BrowserRouter>
   );

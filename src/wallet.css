@@ -1,0 +1,53 @@
+.wallet-card {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  background-color: #43b2e6;
+}
+.wallet-balance {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tabs {
+  background-color: white;
+  border: none;
+}
+.tab:hover {
+  background-color: #43b2e6;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.crypto-item {
+  display: flex;
+  background: #f6f7f9;
+  padding: 10px 20px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+/* .crypto-list .list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.crypto-list img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.crypto-name {
+  display: flex;
+  align-items: center;
+}
+.tab-btn {
+  background: #e0f2ff;
+  border-radius: 8px;
+  padding: 5px 15px;
+  font-weight: bold;
+  color: #007bff;
+} */
